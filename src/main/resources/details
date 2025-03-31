@@ -1,0 +1,19 @@
+spring.application.name=spring-data-demo
+
+// Quando deseja exibir todo SQL gerado no console.
+spring.jpa.show-sql=true
+// O JPA é capaz de criar as tabelas do sistema conforme mapeamento
+spring.jpa.hibernate.ddl-auto=update
+
+// Determina a plataforma de interpretação de SQL
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+
+// O drive do banco de dados
+spring.datasource.driverClassName=org.postgresql.Driver
+
+// A  URL do banco de dados
+spring.datasource.url=jdbc:postgresql://localhost:5432/seu_db
+
+//User e senha do DB
+spring.datasource.username=seu_user
+spring.datasource.password=seu_password
